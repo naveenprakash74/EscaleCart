@@ -62,11 +62,11 @@ export class HoteList extends Component {
           <Text style={{}}>Hot List</Text>
         </View>
         <FlatList
-          style={{margin: 5}}
           data={ItemsData}
           renderItem={this.renderItem}
           showsVerticalScrollIndicator={false}
           numColumns={2}
+          contentContainerStyle={{paddingBottom: 200}}
           columnWrapperStyle={{flex: 1, justifyContent: 'space-around'}}
         />
       </View>
