@@ -15,7 +15,7 @@ export class HoteList extends Component {
           backgroundColor: 'yellow',
           width: '47%',
           height: 258,
-          borderRadius: 24,
+          borderRadius: 12,
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'row',
@@ -25,7 +25,7 @@ export class HoteList extends Component {
         <Image
           source={{uri: icon, resizeMode: 'contain'}}
           style={{
-            borderRadius: 24,
+            borderRadius: 12,
             left: 0,
             right: 0,
             bottom: 0,
