@@ -7,15 +7,16 @@
  */
 
 import React, {Component} from 'react';
+import 'react-native-gesture-handler';
 import {SafeAreaView, View, Text} from 'react-native';
+
+import RootNavigator from './src/RootNavigator';
 
 export class App extends Component {
   render() {
     return (
       <SafeAreaView style={{flex: 1}}>
-        <View>
-          <Text> textInComponent </Text>
-        </View>
+          <RootNavigator />
       </SafeAreaView>
     );
   }
